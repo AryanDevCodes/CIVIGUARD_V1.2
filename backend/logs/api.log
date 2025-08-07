@@ -1,0 +1,11 @@
+2025-05-27 10:43:48.852 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED]]
+2025-05-27 10:43:50.023 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Execution Time: 1168 ms
+Status: SUCCESS

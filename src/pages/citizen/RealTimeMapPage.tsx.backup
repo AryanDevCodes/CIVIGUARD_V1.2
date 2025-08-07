@@ -1,0 +1,712 @@
+import React, { useEffect, useState, useCallback, useMemo } from 'react';
+import { Loader2, RefreshCw, Search, UserCircle, Siren, Truck, Route, PanelLeft, PanelRight } from 'lucide-react';
+import DashboardLayout from '@/components/DashboardLayout';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Card, CardContent } from '@/components/ui/card';
+import { useToast } from '@/hooks/use-toast';
+import { useAuth } from '@/context/AuthContext';
+import { patrolService } from '@/services/patrolService';
+import RealTimeMap from '@/components/maps/RealTimeMap';
+import { Officer, Incident, PatrolVehicle, PatrolRoute, OfficerStatus } from '@/types/patrol';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+
+// Define filter types
+type OfficerStatusFilter = 'ALL' | OfficerStatus;
+type IncidentStatusFilter = 'ALL' | 'REPORTED' | 'IN_PROGRESS' | 'RESOLVED';
+type VehicleStatusFilter = 'ALL' | 'ACTIVE' | 'MAINTENANCE' | 'ASSIGNED' | 'INACTIVE';
+
+// Define map layer state
+interface MapLayerState {
+  showOfficers: boolean;
+  showIncidents: boolean;
+  showVehicles: boolean;
+  showRoutes: boolean;
+}
+
+const PatrolMapPage: React.FC = () => {
+  // State for data
+  const [officers, setOfficers] = useState<Officer[]>([]);
+  const [incidents, setIncidents] = useState<Incident[]>([]);
+  const [patrolVehicles, setPatrolVehicles] = useState<PatrolVehicle[]>([]);
+  const [patrolRoutes, setPatrolRoutes] = useState<PatrolRoute[]>([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [lastUpdated, setLastUpdated] = useState<Date>(new Date());
+
+  // Search and filter state with proper types
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filters, setFilters] = useState({
+    officerStatus: 'ALL' as OfficerStatusFilter,
+    incidentStatus: 'ALL' as IncidentStatusFilter,
+    vehicleStatus: 'ALL' as VehicleStatusFilter,
+  });
+
+  // Map layer visibility
+  const [showControls, setShowControls] = useState(true);
+  const [layers, setLayers] = useState<MapLayerState>({
+    showOfficers: true,
+    showIncidents: true,
+    showVehicles: true,
+    showRoutes: true,
+  });
+    showOfficers: true,
+    showIncidents: true,
+    showVehicles: true,
+    showRoutes: true,
+  });
+
+  // Hooks
+  const { toast } = useToast();
+  const { user } = useAuth();
+
+  // Fetch data
+  const fetchData = useCallback(async () => {
+    try {
+      setIsLoading(true);
+      setError(null);
+
+      // Check authentication first
+      if (!user?.id) {
+        throw new Error('Authentication required');
+      }
+
+      // Add debug logging in development
+      const isDebug = import.meta.env.DEV;
+      if (isDebug) {
+        console.log('Fetching patrol data...');
+      }
+
+      // Fetch all data in parallel with error handling for each request
+      const [officerData, incidentData, vehicleData, routeData] = await Promise.all([
+        patrolService.getOfficers().catch((err) => {
+          console.error('Error fetching officers:', err);
+          toast({
+            title: 'Warning',
+            description: 'Could not load officer data',
+            variant: 'destructive',
+          });
+          return [];
+        }),
+        patrolService.getIncidents().catch((err) => {
+          console.error('Error fetching incidents:', err);
+          toast({
+            title: 'Warning',
+            description: 'Could not load incident data',
+            variant: 'destructive',
+          });
+          return [];
+        }),
+        patrolService.getPatrolVehicles().catch((err) => {
+          console.error('Error fetching vehicles:', err);
+          toast({
+            title: 'Warning',
+            description: 'Could not load vehicle data',
+            variant: 'destructive',
+          });
+          return [];
+        }),
+        patrolService.getPatrolRoutes().catch((err) => {
+          console.error('Error fetching routes:', err);
+          toast({
+            title: 'Warning',
+            description: 'Could not load route data',
+            variant: 'destructive',
+          });
+          return [];
+        }),
+      ]);
+
+      // Validate and set data
+      const validateLocation = (item: { location?: { lat: number; lng: number } }) => {
+        return item.location && typeof item.location.lat === 'number' && typeof item.location.lng === 'number';
+      };
+
+      setOfficers(officerData.filter(validateLocation));
+      setIncidents(incidentData.filter(validateLocation));
+      setPatrolVehicles(vehicleData.filter(validateLocation));
+      setPatrolRoutes(routeData);
+      setLastUpdated(new Date());
+
+      if (isDebug) {
+        console.log('Successfully updated patrol data');
+      }
+
+      toast({
+        title: 'Map updated',
+        description: 'Patrol data has been refreshed.',
+      });
+    } catch (err: any) {
+      console.error('Error in fetchData:', err);
+      
+      let errorMessage = 'Failed to load patrol data. Please try again later.';
+      
+      if (err.message.includes('network')) {
+        errorMessage = 'Network error. Please check your internet connection.';
+      } else if (err.message.includes('authentication') || err.message.includes('401')) {
+        errorMessage = 'Session expired. Please log in again.';
+      } else if (err.message.includes('403')) {
+        errorMessage = 'You do not have permission to view this data.';
+      }
+      
+      setError(errorMessage);
+      toast({
+        title: 'Error',
+        description: errorMessage,
+        variant: 'destructive',
+      });
+    } finally {
+      setIsLoading(false);
+    }
+  }, [user, toast]);
+
+  useEffect(() => {
+    fetchData();
+    const interval = setInterval(fetchData, 30000); // Refresh every 30 seconds
+    return () => clearInterval(interval);
+  }, [fetchData]);
+
+  // Filtered data
+  const filteredOfficers = useMemo(() => {
+    return officers.filter((officer) => {
+      const matchesSearch =
+        officer.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        officer.id.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesFilter =
+        filters.officerStatus === 'ALL' || officer.status === filters.officerStatus;
+      return matchesSearch && matchesFilter;
+    });
+  }, [officers, searchQuery, filters.officerStatus]);
+
+  const filteredIncidents = useMemo(() => {
+    return incidents.filter((incident) => {
+      const matchesSearch =
+        incident.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        incident.id.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesFilter =
+        filters.incidentStatus === 'ALL' || incident.status === filters.incidentStatus;
+      return matchesSearch && matchesFilter;
+    });
+  }, [incidents, searchQuery, filters.incidentStatus]);
+
+  const filteredVehicles = useMemo(() => {
+    return patrolVehicles.filter((vehicle) => {
+      const matchesSearch =
+        vehicle.vehicleNumber.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        vehicle.id.toLowerCase().includes(searchQuery.toLowerCase());
+      const matchesFilter =
+        filters.vehicleStatus === 'ALL' || vehicle.status === filters.vehicleStatus;
+      return matchesSearch && matchesFilter;
+    });
+  }, [patrolVehicles, searchQuery, filters.vehicleStatus]);
+
+  const filteredRoutes = useMemo(() => {
+    return patrolRoutes.filter((route) => {
+      const matchesSearch =
+        route.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        route.id.toLowerCase().includes(searchQuery.toLowerCase());
+      return matchesSearch;
+    });
+  }, [patrolRoutes, searchQuery]);
+
+  // Toggle map layers with type safety
+  const toggleLayer = (layer: keyof MapLayerState) => {
+    setLayers(prev => ({
+      ...prev,
+      [layer]: !prev[layer],
+    }));
+  };
+
+  // Handle search input changes with debouncing
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    debouncedSetSearchQuery(e.target.value);
+  };
+
+  if (isLoading) {
+    return (
+      <DashboardLayout>
+        <div className="flex items-center justify-center h-64">
+          <Loader2 className="h-8 w-8 animate-spin mr-2" />
+          <span>Loading patrol map...</span>
+        </div>
+      </DashboardLayout>
+    );
+  }
+
+  if (error) {
+    return (
+      <DashboardLayout>
+        <div className="flex flex-col items-center justify-center h-64 text-red-500">
+          <span>{error}</span>
+          <Button variant="outline" className="mt-4" onClick={fetchData}>
+            Retry
+          </Button>
+        </div>
+      </DashboardLayout>
+    );
+  }
+
+  // Define proper filter types
+  type OfficerStatusFilter = 'ALL' | OfficerStatus;
+  type IncidentStatusFilter = 'ALL' | 'REPORTED' | 'IN_PROGRESS' | 'RESOLVED';
+  type VehicleStatusFilter = 'ALL' | 'ACTIVE' | 'MAINTENANCE' | 'ASSIGNED' | 'INACTIVE';
+
+  // Add debouncing for search
+  const debouncedSetSearchQuery = useCallback(
+    debounce((value: string) => setSearchQuery(value), 300),
+    []
+  );
+
+  // Cleanup debounce on unmount
+  useEffect(() => {
+    return () => {
+      debouncedSetSearchQuery.cancel();
+    };
+  }, [debouncedSetSearchQuery]);
+
+  return (
+    <DashboardLayout>
+      <div className="space-y-6 animate-in fade-in duration-500 relative">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+          <div>
+            <h1 className="text-2xl font-bold tracking-tight">Patrol Map</h1>
+            <p className="text-muted-foreground">View patrol routes, officer locations, vehicles, and incidents</p>
+          </div>
+          <div className="flex items-center gap-2">
+            <Button 
+              variant="outline" 
+              onClick={fetchData} 
+              disabled={isLoading}
+              className="flex items-center gap-2 bg-white border border-gray-300 hover:bg-gray-50"
+              aria-label="Refresh map data"
+            >
+              <RefreshCw className={`h-4 w-4 ${isLoading ? 'animate-spin' : ''}`} />
+              Refresh Data
+            </Button>
+            <Button
+              variant="outline"
+              size="icon"
+              onClick={() => setShowControls(!showControls)}
+              className="flex items-center justify-center w-10 h-10"
+              aria-label={showControls ? 'Hide controls' : 'Show controls'}
+            >
+              {showControls ? (
+                <PanelRight className="h-4 w-4" />
+              ) : (
+                <PanelLeft className="h-4 w-4" />
+              )}
+            </Button>
+          </div>
+          <div className="flex items-center gap-2">
+            <Button 
+              variant="outline" 
+              onClick={fetchData} 
+              disabled={isLoading}
+              className="flex items-center gap-2 bg-white border border-gray-300 hover:bg-gray-50"
+              aria-label="Refresh map data"
+            >
+              <RefreshCw className={`h-4 w-4 ${isLoading ? 'animate-spin' : ''}`} />
+              Refresh Data
+            </Button>
+            <Button 
+              variant="outline" 
+              onClick={() => setShowControls(!showControls)}
+              className="flex items-center gap-2 bg-white border-blue-500 text-blue-600 hover:bg-blue-50 hover:text-blue-700"
+            >
+              {showControls ? (
+                <>
+                  <PanelRight className="h-4 w-4" />
+                  <span className="font-medium">Hide Controls</span>
+                </>
+              ) : (
+                <>
+                  <PanelLeft className="h-4 w-4" />
+                  <span className="font-medium">Show Controls</span>
+                </>
+              )}
+            </Button>
+          </div>
+        </div>
+
+        <div className="flex flex-col md:flex-row gap-4">
+          <div className="relative flex-1">
+            <label htmlFor="search-input" className="sr-only">Search patrol map</label>
+            <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+            <Input
+              id="search-input"
+              placeholder="Search officers, incidents, vehicles, or routes..."
+              className="pl-10"
+              defaultValue={searchQuery}
+              onChange={handleSearchChange}
+              aria-label="Search patrol map"
+            />
+          </div>
+          <div className="flex gap-2 flex-wrap">
+            <Select
+              value={filters.officerStatus}
+              onValueChange={(value: OfficerStatusFilter) => 
+                setFilters(prev => ({ ...prev, officerStatus: value }))
+              }
+            >
+              <SelectTrigger className="w-[150px]" aria-label="Filter by officer status">
+                <SelectValue placeholder="Officer Status" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="ALL">All Officers</SelectItem>
+                <SelectItem value="ON_DUTY">On Duty</SelectItem>
+                <SelectItem value="IN_EMERGENCY">In Emergency</SelectItem>
+                <SelectItem value="OFF_DUTY">Off Duty</SelectItem>
+              </SelectContent>
+            </Select>
+            <Select
+              value={filters.incidentStatus}
+              onValueChange={(value: IncidentStatusFilter) => 
+                setFilters(prev => ({ ...prev, incidentStatus: value }))
+              }
+            >
+              <SelectTrigger className="w-[150px]" aria-label="Filter by incident status">
+                <SelectValue placeholder="Incident Status" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="ALL">All Incidents</SelectItem>
+                <SelectItem value="REPORTED">Reported</SelectItem>
+                <SelectItem value="IN_PROGRESS">In Progress</SelectItem>
+                <SelectItem value="RESOLVED">Resolved</SelectItem>
+              </SelectContent>
+            </Select>
+            <Select
+              value={filters.vehicleStatus}
+              onValueChange={(value: VehicleStatusFilter) => 
+                setFilters(prev => ({ ...prev, vehicleStatus: value }))
+              }
+            >
+              <SelectTrigger className="w-[150px]" aria-label="Filter by vehicle status">
+                <SelectValue placeholder="Vehicle Status" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="ALL">All Vehicles</SelectItem>
+                <SelectItem value="ACTIVE">Active</SelectItem>
+                <SelectItem value="MAINTENANCE">Maintenance</SelectItem>
+                <SelectItem value="ASSIGNED">Assigned</SelectItem>
+                <SelectItem value="INACTIVE">Inactive</SelectItem>
+              </SelectContent>
+            <div className="flex flex-col md:flex-row gap-4 mb-4">
+              <div className="relative flex-1">
+                <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+                <Input
+                  placeholder="Search officers, incidents, vehicles, or routes..."
+                  className="pl-10"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                />
+              </div>
+              <div className="flex gap-2 flex-wrap">
+                <Select
+                  value={filters.officerStatus}
+                  onValueChange={(value) => setFilters({ ...filters, officerStatus: value as any })}
+                >
+                  <SelectTrigger className="w-[150px]">
+                    <SelectValue placeholder="Officer Status" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="ALL">All Officers</SelectItem>
+                    <SelectItem value="ON_DUTY">On Duty</SelectItem>
+                    <SelectItem value="IN_EMERGENCY">In Emergency</SelectItem>
+                    <SelectItem value="OFF_DUTY">Off Duty</SelectItem>
+                  </SelectContent>
+                </Select>
+                <Select
+                  value={filters.incidentStatus}
+                  onValueChange={(value) => setFilters({ ...filters, incidentStatus: value as any })}
+                >
+                  <SelectTrigger className="w-[150px]">
+                    <SelectValue placeholder="Incident Status" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="ALL">All Incidents</SelectItem>
+                    <SelectItem value="REPORTED">Reported</SelectItem>
+                    <SelectItem value="IN_PROGRESS">In Progress</SelectItem>
+                    <SelectItem value="RESOLVED">Resolved</SelectItem>
+                  </SelectContent>
+                </Select>
+                <Select
+                  value={filters.vehicleStatus}
+                  onValueChange={(value) => setFilters({ ...filters, vehicleStatus: value as any })}
+                >
+                  <SelectTrigger className="w-[150px]">
+                    <SelectValue placeholder="Vehicle Status" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="ALL">All Vehicles</SelectItem>
+                    <SelectItem value="ACTIVE">Active</SelectItem>
+                    <SelectItem value="MAINTENANCE">Maintenance</SelectItem>
+                    <SelectItem value="ASSIGNED">Assigned</SelectItem>
+                    <SelectItem value="INACTIVE">Inactive</SelectItem>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+          <Button
+            variant={layers.showOfficers ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => toggleLayer('showOfficers')}
+            className="flex items-center gap-2 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            aria-pressed={layers.showOfficers}
+            aria-label={`${layers.showOfficers ? 'Hide' : 'Show'} officers layer`}
+            aria-controls="officers-layer"
+          >
+            <UserCircle className="h-4 w-4" />
+            <span>Officers</span>
+          </Button>
+          <Button
+            variant={layers.showIncidents ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => toggleLayer('showIncidents')}
+            className="flex items-center gap-2 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            aria-pressed={layers.showIncidents}
+            aria-label={`${layers.showIncidents ? 'Hide' : 'Show'} incidents layer`}
+          >
+            <Siren className="h-4 w-4" />
+            <span>Incidents</span>
+          </Button>
+          <Button
+            variant={layers.showVehicles ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => toggleLayer('showVehicles')}
+            className="flex items-center gap-2 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            aria-pressed={layers.showVehicles}
+            aria-label={`${layers.showVehicles ? 'Hide' : 'Show'} vehicles layer`}
+          >
+            <Truck className="h-4 w-4" />
+            <span>Vehicles</span>
+          </Button>
+          <Button
+            variant={layers.showRoutes ? 'default' : 'outline'}
+            size="sm"
+            onClick={() => toggleLayer('showRoutes')}
+            className="flex items-center gap-2 focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            aria-pressed={layers.showRoutes}
+            aria-label={`${layers.showRoutes ? 'Hide' : 'Show'} routes layer`}
+          >
+            <Route className="h-4 w-4" />
+            <span>Routes</span>
+          </Button>
+            </div>
+          </>
+        )}
+
+        <Card className="transition-all duration-300">
+          <CardContent className="p-0">
+            <RealTimeMap
+              officers={layers.showOfficers ? filteredOfficers : []}
+              incidents={layers.showIncidents ? filteredIncidents : []}
+              patrolVehicles={layers.showVehicles ? filteredVehicles : []}
+              patrolRoutes={layers.showRoutes ? filteredRoutes : []}
+              refreshInterval={30000}
+              onRefresh={fetchData}
+              className="rounded-lg"
+              zoom={13}
+            />
+          </CardContent>
+        </Card>
+
+        <div className="text-sm text-muted-foreground">
+          Last updated: {lastUpdated.toLocaleString()}
+        </div>
+      </div>
+    </DashboardLayout>
+  );
+};
+
+export default PatrolMapPage;
+
+// ### Explanation of Enhancements
+
+// 1. **Google Maps Integration**:
+//    - Replaced Leaflet with `RealTimeMap`, which uses `@react-google-maps/api` for Google Maps rendering.
+//    - Leveraged `RealTimeMap`’s custom SVG icons for officers, incidents, vehicles, and polylines for routes.
+//    - Maintained `mapContainerStyle` from `RealTimeMap` with a minimum height of 500px.
+
+// 2. **Feature Integration**:
+//    - **RealTimeMap**: Used for core map rendering, including geolocation (defaults to Delhi), custom markers, and InfoWindows with detailed officer, incident, vehicle, and route information.
+//    - **PatrolMap**: Incorporated marker selection logic (`onOfficerSelect`, `onIncidentSelect`, `onVehicleSelect`) into `RealTimeMap`’s `selectedItem` state management, ensuring seamless InfoWindow interactions.
+//    - Combined `RealTimeMap`’s advanced InfoWindow rendering (e.g., officer performance metrics) with `PatrolMap`’s concise incident and vehicle details.
+
+// 3. **Layer Controls**:
+//    - Added buttons to toggle visibility of officers, incidents, vehicles, and routes, styled with Shadcn/UI and `lucide-react` icons (`UserCircle`, `Siren`, `Truck`, `Route`).
+//    - Layers are managed via `MapLayerState`, conditionally passing empty arrays to `RealTimeMap` when a layer is disabled.
+
+// 4. **Search and Filters**:
+//    - Implemented a search input to filter officers, incidents, vehicles, and routes by name or ID.
+//    - Added `Select` components for filtering by:
+//      - Officer status (`ALL`, `ON_DUTY`, `IN_EMERGENCY`, `OFF_DUTY`).
+//      - Incident status (`ALL`, `REPORTED`, `IN_PROGRESS`, `RESOLVED`).
+//      - Vehicle status (`ALL`, `ACTIVE`, `MAINTENANCE`, `ASSIGNED`, `INACTIVE`).
+//    - Filters are memoized with `useMemo` for performance.
+
+// 5. **Real-Time Updates**:
+//    - Data refreshes every 30 seconds via `useEffect` with `setInterval`, as in `RealTimeMap`.
+//    - Manual refresh button triggers `fetchData`, updating `lastUpdated` and showing a toast notification.
+
+// 6. **Responsive UI**:
+//    - Used Tailwind CSS for responsive layout (flexbox, grid).
+//    - Wrapped map in a `Card` for consistent styling within `DashboardLayout`.
+//    - Control panel (search, filters, layer toggles) adapts to mobile with stacked layout.
+
+// 7. **Type Safety**:
+//    - Used `Officer`, `Incident`, `PatrolVehicle`, and `PatrolRoute` from `@/types/patrol`.
+//    - Defined `MapLayerState` for layer toggles.
+//    - Ensured all props and state are typed, with proper null checks for optional fields.
+
+// 8. **Error Handling**:
+//    - Handled Google Maps loading errors and geolocation failures (falls back to Delhi).
+//    - Displayed loading state with `Loader2` and error state with retry button.
+//    - API errors trigger toast notifications and set `error` state.
+
+// 9. **Performance Optimizations**:
+//    - Memoized filtered data (`filteredOfficers`, `filteredIncidents`, etc.) to prevent unnecessary re-renders.
+//    - Used `useCallback` for `fetchData` and event handlers.
+//    - Passed empty arrays for hidden layers to minimize map updates.
+
+// ### Setup Instructions
+
+// 1. **Install Dependencies**:
+//    ```bash
+//    npm install @react-google-maps/api lucide-react
+//    ```
+
+// 2. **Environment Variable**:
+//    - Add `VITE_GOOGLE_MAPS_API_KEY` to `.env`:
+//      ```env
+//      VITE_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+//      ```
+//    - Ensure the API key has Maps JavaScript API, Places API, and Geometry API enabled.
+
+// 3. **patrolService Implementation**:
+//    - Implement `patrolService` with the following methods:
+//      ```typescript
+//      export const patrolService = {
+//        getOfficerLocations: async (officerId: string): Promise<Officer[]> => {
+//          // Example response
+//          return [
+//            {
+//              id: '1',
+//              name: 'John Doe',
+//              location: { lat: 28.6139, lng: 77.2090 },
+//              status: 'ON_DUTY',
+//              badgeNumber: '1234',
+//              department: 'Delhi Police',
+//              rank: 'Inspector',
+//              contactNumber: '+91-9876543210',
+//              email: 'john.doe@example.com',
+//              performance: { casesSolved: 50, commendations: 5, performanceRating: 'A' },
+//            },
+//          ];
+//        },
+//        getIncidents: async (officerId: string): Promise<Incident[]> => {
+//          return [
+//            {
+//              id: '1',
+//              title: 'Theft',
+//              location: { lat: 28.6149, lng: 77.2190 },
+//              status: 'REPORTED',
+//              priority: 'HIGH',
+//              description: 'Reported theft at Connaught Place',
+//            },
+//          ];
+//        },
+//        getPatrolVehicles: async (officerId: string): Promise<PatrolVehicle[]> => {
+//          return [
+//            {
+//              id: '1',
+//              vehicleNumber: 'DL-1234',
+//              location: { lat: 28.6129, lng: 77.2080 },
+//              status: 'ACTIVE',
+//              type: 'SUV',
+//              licensePlate: 'DL-1234',
+//              heading: 90,
+//            },
+//          ];
+//        },
+//        getPatrolRoutes: async (officerId: string): Promise<PatrolRoute[]> => {
+//          return [
+//            {
+//              id: '1',
+//              name: 'Downtown Patrol',
+//              waypoints: [
+//                { lat: 28.6139, lng: 77.2090 },
+//                { lat: 28.6149, lng: 77.2190 },
+//              ],
+//              status: 'ACTIVE',
+//              assignedOfficer: 'John Doe',
+//            },
+//          ];
+//        },
+//      };
+//      ```
+
+// 4. **Ensure Types**:
+//    - Verify `@/types/patrol` includes:
+//      ```typescript
+//      export interface Officer {
+//        id: string;
+//        name: string;
+//        location: { lat: number; lng: number };
+//        status: OfficerStatus;
+//        badgeNumber?: string;
+//        department?: string;
+//        rank?: string;
+//        contactNumber?: string;
+//        email?: string;
+//        currentPosting?: string;
+//        performance?: {
+//          casesSolved?: number;
+//          commendations?: number;
+//          performanceRating?: string;
+//        };
+//      }
+
+//      export type OfficerStatus = 'ON_DUTY' | 'IN_EMERGENCY' | 'OFF_DUTY';
+
+//      export interface Incident {
+//        id: string;
+//        title: string;
+//        location: { lat: number; lng: number; address?: string };
+//        status: 'REPORTED' | 'IN_PROGRESS' | 'RESOLVED';
+//        priority: 'LOW' | 'MEDIUM' | 'HIGH';
+//        description?: string;
+//      }
+
+//      export interface PatrolVehicle {
+//        id: string;
+//        vehicleNumber: string;
+//        location: { lat: number; lng: number };
+//        status: 'ACTIVE' | 'MAINTENANCE' | 'ASSIGNED' | 'INACTIVE';
+//        type: string;
+//        licensePlate: string;
+//        heading?: number;
+//      }
+
+//      export interface PatrolRoute {
+//        id: string;
+//        name: string;
+//        waypoints: { lat: number; lng: number }[];
+//        status: string;
+//        assignedOfficer?: string;
+//      }
+//      ```
+
+// 5. **Tailwind CSS**:
+//    - Ensure Tailwind is configured with Shadcn/UI components.
+//    - Add `scrollbar` utilities if needed (via `tailwindcss/plugins`).
+
+// ### Notes
+// - **Geolocation**: `RealTimeMap` uses browser geolocation, falling back to Delhi (`28.6139, 77.2090`) if unavailable. Adjust `defaultCenter` for other regions.
+// - **API Rate Limits**: Ensure the Google Maps API key has sufficient quota for Maps, Places, and Geometry APIs.
+// - **Real-Time Refresh**: The 30-second interval can be adjusted via `refreshInterval`. Monitor API usage for frequent requests.
+// - **Performance**: Memoized filters and conditional layer rendering optimize performance. For large datasets, consider debouncing search input.
+// - **Accessibility**: Add ARIA labels to controls and ensure keyboard navigation for search and filters.
+// - **Debugging**: `RealTimeMap` includes debug logging for incidents. Remove or configure logs for production.
+// - **Customization**: Extend `RealTimeMap` to support route editing or officer assignment by adding event handlers (e.g., `onRouteUpdate`).
+
+// This enhanced `PatrolMapPage` delivers a professional, interactive map dashboard, combining the best of `RealTimeMap` and `PatrolMap` with added features for a patrol management system. If you need further refinements, such as integrating with `CasesPage` or want to add features like route optimization or incident assignment, let me know!

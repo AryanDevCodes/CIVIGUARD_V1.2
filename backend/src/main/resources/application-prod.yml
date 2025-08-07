@@ -1,0 +1,50 @@
+
+server:
+  port: ${PORT:8080}
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: false
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+# Custom application properties
+app:
+  jwt:
+    secret: ${JWT_SECRET}
+    expiration: 86400000 # 24 hours
+  cors:
+    allowed-origins: ${CORS_ORIGINS:https://civiguard.com}
+  incident:
+    anonymous-reporting-enabled: ${ANONYMOUS_REPORTING_ENABLED:true}
+  upload:
+    dir: ${UPLOAD_DIR:/app/uploads}
+
+# Logging configuration
+logging:
+  level:
+    root: INFO
+    com.civiguard: INFO
+
+# Actuator configuration
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: never

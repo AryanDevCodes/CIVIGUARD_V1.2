@@ -1,0 +1,77 @@
+
+spring:
+  jmx:
+    enabled: false  # Disable JMX to prevent MBean conflicts
+  main:
+    allow-bean-definition-overriding: true  # Allow bean definition overriding
+  profiles:
+    active: dev
+  jackson:
+    serialization:
+      WRITE_DATES_AS_TIMESTAMPS: false
+  jpa:
+    open-in-view: false
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  
+  # Logging configuration
+  application:
+    name: civiguard-backend
+  
+  # Actuator endpoints
+  actuator:
+    endpoints:
+      web:
+        exposure:
+          include: health,info,metrics,env,loggers
+    metrics:
+      export:
+        simple:
+          enabled: true
+      distribution:
+        percentiles-histogram:
+          http.server.requests: true
+      web:
+        server:
+          request:
+            autotime:
+              enabled: true
+              percentiles: 0.5,0.95,0.99
+              percentiles-histogram: true
+
+# Logging configuration
+logging:
+  level:
+    root: INFO
+    com.civiguard: DEBUG
+    org.springframework.web: INFO
+    org.hibernate.SQL: WARN
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+  file:
+    name: logs/application.log
+    max-size: 10MB
+    max-history: 7
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36}:%L - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36}:%L - %msg%n"
+
+# WebSocket configuration
+  websocket:
+    enabled: true
+    path: /ws
+    allowed-origins: ${CORS_ORIGINS:*}
+
+# Weather API configuration  
+app:
+  weather:
+    api-key: ${WEATHER_API_KEY:}
+    base-url: https://api.openweathermap.org/data/2.5
+  disaster:
+    api-url: ${DISASTER_API_URL:https://ndma.gov.in/api}
+  geofencing:
+    enabled: true
+    max-fence-radius-km: 50
+  languages:
+    supported: en,hi,bn,te,ta,mr,gu,kn,ml,pa,or

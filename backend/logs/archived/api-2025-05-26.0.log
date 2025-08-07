@@ -1,0 +1,165 @@
+2025-05-26 10:42:53.993 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Arguments: [LoginRequest(email=admin@civiguard.com, password=adminPassword123)]
+2025-05-26 10:42:54.579 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Execution Time: 584 ms
+Status: SUCCESS
+2025-05-26 10:43:09.247 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Arguments: [LoginRequest(email=admin@civiguard.com, password=adminPassword123)]
+2025-05-26 10:43:09.443 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Execution Time: 195 ms
+Status: SUCCESS
+2025-05-26 10:44:20.274 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Arguments: [LoginRequest(email=admin@civiguard.com, password=adminPassword123)]
+2025-05-26 10:44:20.445 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Execution Time: 169 ms
+Status: SUCCESS
+2025-05-26 10:45:13.300 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Arguments: [LoginRequest(email=admin@civiguard.com, password=adminPassword123)]
+2025-05-26 10:45:13.470 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Execution Time: 169 ms
+Status: SUCCESS
+2025-05-26 10:49:38.849 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Arguments: [LoginRequest(email=officer1@civiguard.com, password=officer123)]
+2025-05-26 10:49:39.074 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Execution Time: 223 ms
+Status: SUCCESS
+2025-05-26 10:50:03.559 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/shifts/officer/2
+Controller: ShiftController.getShiftsByOfficer
+Arguments: [2]
+2025-05-26 10:50:03.570 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/shifts/officer/2
+Controller: ShiftController.getShiftsByOfficer
+Execution Time: 10 ms
+Status: SUCCESS
+2025-05-26 10:52:55.705 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/shifts/officer/2
+Controller: ShiftController.getShiftsByOfficer
+Arguments: [2]
+2025-05-26 10:52:55.828 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/shifts/officer/2
+Controller: ShiftController.getShiftsByOfficer
+Execution Time: 122 ms
+Status: SUCCESS
+2025-05-26 10:55:50.606 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/shifts/officer/2
+Controller: ShiftController.getShiftsByOfficer
+Arguments: [2]
+2025-05-26 10:55:50.723 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/shifts/officer/2
+Controller: ShiftController.getShiftsByOfficer
+Execution Time: 116 ms
+Status: SUCCESS
+2025-05-26 10:56:50.254 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/shifts
+Controller: ShiftController.getAllShifts
+Arguments: []
+2025-05-26 10:56:50.356 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/shifts
+Controller: ShiftController.getAllShifts
+Execution Time: 101 ms
+Status: SUCCESS
+2025-05-26 10:56:58.549 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/shifts/1
+Controller: ShiftController.getShiftById
+Arguments: [1]
+2025-05-26 10:56:58.565 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/shifts/1
+Controller: ShiftController.getShiftById
+Execution Time: 14 ms
+Status: SUCCESS
+2025-05-26 10:57:05.176 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/shifts/status/PENDING
+Controller: ShiftController.getShiftsByStatus
+Arguments: [PENDING]
+2025-05-26 10:57:05.271 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/shifts/status/PENDING
+Controller: ShiftController.getShiftsByStatus
+Execution Time: 93 ms
+Status: SUCCESS
+2025-05-26 10:57:12.338 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/shifts/date-range?start=2025-05-26T00:00:00&end=2025-05-27T23:59:59
+Controller: ShiftController.getShiftsBetweenDates
+Arguments: [2025-05-26T00:00, 2025-05-27T23:59:59]
+2025-05-26 10:57:12.389 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/shifts/date-range?start=2025-05-26T00:00:00&end=2025-05-27T23:59:59
+Controller: ShiftController.getShiftsBetweenDates
+Execution Time: 50 ms
+Status: SUCCESS
+2025-05-26 11:05:44.009 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/shifts
+Controller: ShiftController.createShift
+Arguments: [ShiftDTO(id=null, title=Special Night Patrol, type=PATROL, startTime=2025-05-27T20:00, endTime=2025-05-28T04:00, location=Downtown Area, description=Special night patrol for event security, status=PENDING, assignedOfficerIds=[2, 3], createdAt=null, updatedAt=null)]
+2025-05-26 11:05:44.074 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/shifts
+Controller: ShiftController.createShift
+Execution Time: 63 ms
+Status: SUCCESS
+2025-05-26 11:09:25.632 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/shifts
+Controller: ShiftController.createShift
+Arguments: [ShiftDTO(id=null, title=Special Night Patrol, type=PATROL, startTime=2025-05-27T20:00, endTime=2025-05-28T04:00, location=Downtown Area, description=Special night patrol for event security, status=PENDING, assignedOfficerIds=[2, 3], createdAt=null, updatedAt=null)]
+2025-05-26 11:09:25.703 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/shifts
+Controller: ShiftController.createShift
+Execution Time: 70 ms
+Status: SUCCESS
+2025-05-26 11:11:07.580 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/shifts
+Controller: ShiftController.createShift
+Arguments: [ShiftDTO(id=null, title=Special Night Patrol, type=PATROL, startTime=2025-05-27T20:00, endTime=2025-05-28T04:00, location=Downtown Area, description=Special night patrol for event security, status=PENDING, assignedOfficerIds=[2, 3], createdAt=null, updatedAt=null)]
+2025-05-26 11:11:07.648 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/shifts
+Controller: ShiftController.createShift
+Execution Time: 67 ms
+Status: SUCCESS

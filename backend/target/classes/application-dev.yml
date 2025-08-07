@@ -1,0 +1,107 @@
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  main:
+    banner-mode: off
+    allow-bean-definition-overriding: true  # Allow bean definition overriding
+  datasource:
+    url: jdbc:postgresql://localhost:5432/civiguard
+    username: aryan
+    password: 8252
+  jpa:
+    hibernate:
+      ddl-auto: update     # Changed from create-drop to update
+    properties:
+      hibernate:
+        jmx:
+          enabled: false  # Disable Hibernate JMX to prevent conflicts
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: true
+        # Schema management
+        hbm2ddl:
+          auto: update # Changed from create-drop to update
+          '[create-namespaces]': true
+        # Connection pool settings
+        hikari:
+          '[connection-timeout]': 30000
+          '[maximum-pool-size]': 15
+          '[minimum-idle]': 5
+          '[idle-timeout]': 30000
+          '[max-lifetime]': 1200000
+        # Performance settings
+        jdbc:
+          '[batch_size]': 30
+          '[order_inserts]': true
+          '[order_updates]': true
+          '[batch_versioned_data]': true
+        # For better performance with PostgreSQL
+        '[jdbc.lob]':
+          '[non_contextual_creation]': true
+        # Disable batch fetch for collections to prevent deadlocks
+        '[default_batch_fetch_size]': 10
+        # Disable second-level cache for now to prevent deadlocks
+        '[cache.use_second_level_cache]': false
+        '[cache.use_query_cache]': false
+  jmx:
+    enabled: true  # Enable Spring JMX
+    unique-names: true  # Ensure unique MBean names
+  devtools:
+    restart:
+      enabled: true
+    livereload:
+      enabled: false  # Disable live reload if not needed
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  websocket:
+    enabled: true
+    path: /api/ws
+    allowed-origins: http://localhost:3000
+
+# Custom application properties
+app:
+  jwt:
+    secret: UkXp2s5v8y/B?E(H+MbQeThVmYq3t6w9z$C&F)J@NcRfUjWnZr4u7x!A%D*G-KaP
+    expiration: 86400000 # 24 hours
+    refresh.expiration: 604800000 # 7 days
+  cors:
+    allowed-origins: http://localhost:3000
+  incident:
+    anonymous-reporting-enabled: true
+  upload:
+    dir: uploads/dev
+  weather:
+    api-key: demo_key
+    base-url: https://api.openweathermap.org/data/2.5
+  disaster:
+    api-url: https://ndma.gov.in/api
+  geofencing:
+    enabled: true
+    max-fence-radius-km: 50
+  languages:
+    supported: en,hi,bn,te,ta,mr,gu,kn,ml,pa,or
+
+# Logging configuration
+logging:
+  level:
+    root: INFO
+  #   com.civiguard: DEBUG
+  #   org.springframework.security: DEBUG
+  #   org.springframework.web: DEBUG
+  #   org.springframework.messaging: DEBUG
+  #   org.springframework.websocket: DEBUG
+
+# Actuator configuration
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+  endpoint:
+    health:
+      show-details: when-authorized

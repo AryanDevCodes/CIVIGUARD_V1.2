@@ -1,0 +1,814 @@
+2025-06-29 10:33:01.956 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Arguments: [LoginRequest(email=citizen2@civiguard.com, password=citizen123)]
+2025-06-29 10:33:03.211 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Execution Time: 1247 ms
+Status: SUCCESS
+2025-06-29 10:33:03.757 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/alerts/public
+Controller: AlertController.getPublicAlerts
+Arguments: [Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:33:03.759 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:33:03.769 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:33:04.198 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/alerts/public
+Controller: AlertController.getPublicAlerts
+Execution Time: 440 ms
+Status: SUCCESS
+2025-06-29 10:33:05.603 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Execution Time: 1843 ms
+Status: SUCCESS
+2025-06-29 10:33:05.604 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Execution Time: 1834 ms
+Status: SUCCESS
+2025-06-29 10:33:07.015 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:33:07.032 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:33:07.590 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Execution Time: 567 ms
+Status: SUCCESS
+2025-06-29 10:33:07.848 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Execution Time: 810 ms
+Status: SUCCESS
+2025-06-29 10:33:16.478 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:33:17.079 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Execution Time: 591 ms
+Status: SUCCESS
+2025-06-29 10:36:55.793 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?createdBy=53&page=0&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, 53, null, null, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:36:55.843 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?createdBy=53&page=0&size=10
+Controller: ReportController.getAllReports
+Execution Time: 48 ms
+Status: SUCCESS
+2025-06-29 10:37:22.153 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/alerts?page=0&size=100&sort=createdAt,desc
+Controller: AlertController.getAllAlerts
+Arguments: [Page request [number: 0, size 100, sort: createdAt: DESC], com.civiguard.security.UserPrincipal@2706ad80]
+2025-06-29 10:37:22.227 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/alerts?page=0&size=100&sort=createdAt,desc
+Controller: AlertController.getAllAlerts
+Execution Time: 73 ms
+Status: SUCCESS
+2025-06-29 10:37:38.252 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: PATCH /api/alerts/31/read
+Controller: AlertController.markAlertAsRead
+Arguments: [31, com.civiguard.security.UserPrincipal@97678b9]
+2025-06-29 10:37:38.340 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: PATCH /api/alerts/31/read
+Controller: AlertController.markAlertAsRead
+Execution Time: 73 ms
+Status: SUCCESS
+2025-06-29 10:37:44.726 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: PATCH /api/alerts/30/read
+Controller: AlertController.markAlertAsRead
+Arguments: [30, com.civiguard.security.UserPrincipal@67374643]
+2025-06-29 10:37:44.746 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: PATCH /api/alerts/30/read
+Controller: AlertController.markAlertAsRead
+Execution Time: 19 ms
+Status: SUCCESS
+2025-06-29 10:38:00.604 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/users/me
+Controller: UserController.getCurrentUser
+Arguments: [com.civiguard.security.UserPrincipal@46bedb4a]
+2025-06-29 10:38:00.615 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/users/me
+Controller: UserController.getCurrentUser
+Execution Time: 10 ms
+Status: SUCCESS
+2025-06-29 10:38:23.563 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Arguments: [LoginRequest(email=officer1@civiguard.com, password=officer123)]
+2025-06-29 10:38:23.743 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Execution Time: 178 ms
+Status: SUCCESS
+2025-06-29 10:38:23.952 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents?assignedTo=2
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:38:23.954 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/officers/2
+Controller: OfficerController.getOfficerById
+Arguments: [2]
+2025-06-29 10:38:24.027 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/officers/2
+Controller: OfficerController.getOfficerById
+Execution Time: 73 ms
+Status: SUCCESS
+2025-06-29 10:38:24.383 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents?assignedTo=2
+Controller: IncidentController.getAllIncidents
+Execution Time: 429 ms
+Status: SUCCESS
+2025-06-29 10:38:25.444 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents?assignedTo=2
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:38:25.726 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents?assignedTo=2
+Controller: IncidentController.getAllIncidents
+Execution Time: 277 ms
+Status: SUCCESS
+2025-06-29 10:38:30.946 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents?page=0&size=10
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 10, sort: UNSORTED]]
+2025-06-29 10:38:31.259 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents?page=0&size=10
+Controller: IncidentController.getAllIncidents
+Execution Time: 309 ms
+Status: SUCCESS
+2025-06-29 10:40:08.720 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents/assigned-to/2?page=0&size=10
+Controller: IncidentController.getIncidentsByAssignedOfficer
+Arguments: [2, Page request [number: 0, size 10, sort: UNSORTED]]
+2025-06-29 10:40:08.907 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents/assigned-to/2?page=0&size=10
+Controller: IncidentController.getIncidentsByAssignedOfficer
+Execution Time: 185 ms
+Status: SUCCESS
+2025-06-29 10:42:34.251 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/officers
+Controller: OfficerController.getAllOfficers
+Arguments: [Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:42:34.279 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/officers
+Controller: OfficerController.getAllOfficers
+Execution Time: 26 ms
+Status: SUCCESS
+2025-06-29 10:42:34.305 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/patrol-vehicles
+Controller: PatrolVehicleController.getAllPatrolVehicles
+Arguments: []
+2025-06-29 10:42:34.308 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:42:34.313 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/patrol-routes
+Controller: PatrolRouteController.getAllPatrolRoutes
+Arguments: []
+2025-06-29 10:42:34.375 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/patrol-vehicles
+Controller: PatrolVehicleController.getAllPatrolVehicles
+Execution Time: 68 ms
+Status: SUCCESS
+2025-06-29 10:42:34.415 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/patrol-routes
+Controller: PatrolRouteController.getAllPatrolRoutes
+Execution Time: 102 ms
+Status: SUCCESS
+2025-06-29 10:42:34.705 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Execution Time: 396 ms
+Status: SUCCESS
+2025-06-29 10:42:35.489 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents/assigned-to/2?page=0&size=10
+Controller: IncidentController.getIncidentsByAssignedOfficer
+Arguments: [2, Page request [number: 0, size 10, sort: UNSORTED]]
+2025-06-29 10:42:35.553 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents/assigned-to/2?page=0&size=10
+Controller: IncidentController.getIncidentsByAssignedOfficer
+Execution Time: 62 ms
+Status: SUCCESS
+2025-06-29 10:45:36.160 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/officers
+Controller: OfficerController.getAllOfficers
+Arguments: [Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:45:36.159 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED]]
+2025-06-29 10:45:36.188 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/patrol-vehicles
+Controller: PatrolVehicleController.getAllPatrolVehicles
+Arguments: []
+2025-06-29 10:45:36.207 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/officers
+Controller: OfficerController.getAllOfficers
+Execution Time: 44 ms
+Status: SUCCESS
+2025-06-29 10:45:36.227 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/patrol-vehicles
+Controller: PatrolVehicleController.getAllPatrolVehicles
+Execution Time: 37 ms
+Status: SUCCESS
+2025-06-29 10:45:36.243 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/patrol-routes
+Controller: PatrolRouteController.getAllPatrolRoutes
+Arguments: []
+2025-06-29 10:45:36.302 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/patrol-routes
+Controller: PatrolRouteController.getAllPatrolRoutes
+Execution Time: 58 ms
+Status: SUCCESS
+2025-06-29 10:45:36.479 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents
+Controller: IncidentController.getAllIncidents
+Execution Time: 314 ms
+Status: SUCCESS
+2025-06-29 10:46:59.058 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/patrol-vehicles
+Controller: PatrolVehicleController.getAllPatrolVehicles
+Arguments: []
+2025-06-29 10:46:59.105 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/patrol-vehicles
+Controller: PatrolVehicleController.getAllPatrolVehicles
+Execution Time: 46 ms
+Status: SUCCESS
+2025-06-29 10:47:09.111 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/shifts/date-range?start=2025-06-28T18%3A30%3A00.000Z&end=2025-07-04T18%3A30%3A00.000Z
+Controller: ShiftController.getShiftsBetweenDates
+Arguments: [2025-06-28T18:30, 2025-07-04T18:30]
+2025-06-29 10:47:09.128 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/shifts/date-range?start=2025-06-28T18%3A30%3A00.000Z&end=2025-07-04T18%3A30%3A00.000Z
+Controller: ShiftController.getShiftsBetweenDates
+Execution Time: 16 ms
+Status: SUCCESS
+2025-06-29 10:47:25.642 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, null, null, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:47:25.666 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?
+Controller: ReportController.getAllReports
+Execution Time: 22 ms
+Status: SUCCESS
+2025-06-29 10:47:59.662 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents/assigned-to/2?includeOfficers=true&size=100&sort=createdAt,desc
+Controller: IncidentController.getIncidentsByAssignedOfficer
+Arguments: [2, Page request [number: 0, size 100, sort: createdAt: DESC]]
+2025-06-29 10:47:59.729 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents/assigned-to/2?includeOfficers=true&size=100&sort=createdAt,desc
+Controller: IncidentController.getIncidentsByAssignedOfficer
+Execution Time: 65 ms
+Status: SUCCESS
+2025-06-29 10:48:13.050 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/officers/2
+Controller: OfficerController.getOfficerById
+Arguments: [2]
+2025-06-29 10:48:13.057 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/officers/2
+Controller: OfficerController.getOfficerById
+Execution Time: 5 ms
+Status: SUCCESS
+2025-06-29 10:48:34.074 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Arguments: [LoginRequest(email=admin@civiguard.com, password=adminPassword123)]
+2025-06-29 10:48:34.248 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: POST /api/auth/login
+Controller: AuthController.login
+Execution Time: 172 ms
+Status: SUCCESS
+2025-06-29 10:48:34.381 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents?page=0&size=1000&startDate=2025-06-23T05:18:34.293Z&endDate=2025-06-29T05:18:34.293Z
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, 2025-06-23T05:18:34.293, 2025-06-29T05:18:34.293, Page request [number: 0, size 1000, sort: UNSORTED]]
+2025-06-29 10:48:34.436 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents?page=0&size=1000&startDate=2025-06-22T18:30:00.000Z&endDate=2025-06-29T18:29:59.999Z
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, 2025-06-22T18:30, 2025-06-29T18:29:59.999, Page request [number: 0, size 1000, sort: UNSORTED]]
+2025-06-29 10:48:34.664 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents?page=0&size=1000&startDate=2025-06-23T05:18:34.293Z&endDate=2025-06-29T05:18:34.293Z
+Controller: IncidentController.getAllIncidents
+Execution Time: 282 ms
+Status: SUCCESS
+2025-06-29 10:48:34.779 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents?page=0&size=1000&startDate=2025-06-22T18:30:00.000Z&endDate=2025-06-29T18:29:59.999Z
+Controller: IncidentController.getAllIncidents
+Execution Time: 342 ms
+Status: SUCCESS
+2025-06-29 10:48:43.584 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents?page=0&size=1000&startDate=2025-06-22T18:30:00.000Z&endDate=2025-06-29T18:29:59.999Z
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, 2025-06-22T18:30, 2025-06-29T18:29:59.999, Page request [number: 0, size 1000, sort: UNSORTED]]
+2025-06-29 10:48:43.634 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents?page=0&size=1000
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 1000, sort: UNSORTED]]
+2025-06-29 10:48:43.850 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents?page=0&size=1000&startDate=2025-06-22T18:30:00.000Z&endDate=2025-06-29T18:29:59.999Z
+Controller: IncidentController.getAllIncidents
+Execution Time: 265 ms
+Status: SUCCESS
+2025-06-29 10:48:43.857 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents?page=0&size=1000
+Controller: IncidentController.getAllIncidents
+Execution Time: 220 ms
+Status: SUCCESS
+2025-06-29 10:49:12.457 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/officers?page=0&size=15
+Controller: OfficerController.getAllOfficers
+Arguments: [Page request [number: 0, size 15, sort: UNSORTED]]
+2025-06-29 10:49:12.486 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/officers?page=0&size=15
+Controller: OfficerController.getAllOfficers
+Execution Time: 28 ms
+Status: SUCCESS
+2025-06-29 10:49:40.729 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/users/admin?page=-1&pageSize=10&sort=name,asc&role=CITIZEN&size=10
+Controller: UserController.getAllUsers
+Arguments: [null, null, null, Page request [number: 0, size 10, sort: name: ASC]]
+2025-06-29 10:49:40.742 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/users/admin?page=-1&pageSize=10&sort=name,asc&role=CITIZEN&size=10
+Controller: UserController.getAllUsers
+Execution Time: 12 ms
+Status: SUCCESS
+2025-06-29 10:49:47.897 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/incidents?page=0&size=10
+Controller: IncidentController.getAllIncidents
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 10, sort: UNSORTED]]
+2025-06-29 10:49:48.099 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/incidents?page=0&size=10
+Controller: IncidentController.getAllIncidents
+Execution Time: 201 ms
+Status: SUCCESS
+2025-06-29 10:50:42.475 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/alerts/filter
+Controller: AlertController.filterAlerts
+Arguments: [null, null, null, null, null, null, Page request [number: 0, size 20, sort: UNSORTED], com.civiguard.security.UserPrincipal@11654964]
+2025-06-29 10:50:42.529 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/alerts/filter
+Controller: AlertController.filterAlerts
+Execution Time: 52 ms
+Status: SUCCESS
+2025-06-29 10:51:13.880 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=0&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:13.888 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=0&size=10
+Controller: ReportController.getAllReports
+Execution Time: 8 ms
+Status: SUCCESS
+2025-06-29 10:51:19.206 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=0&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:19.212 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=0&size=10
+Controller: ReportController.getAllReports
+Execution Time: 5 ms
+Status: SUCCESS
+2025-06-29 10:51:19.363 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:19.374 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 10 ms
+Status: SUCCESS
+2025-06-29 10:51:19.530 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:19.536 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 5 ms
+Status: SUCCESS
+2025-06-29 10:51:19.712 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:19.718 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 4 ms
+Status: SUCCESS
+2025-06-29 10:51:26.178 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/system/status
+Controller: PublicSystemController.getAllComponentStatuses
+Arguments: []
+2025-06-29 10:51:26.249 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/system/status
+Controller: PublicSystemController.getAllComponentStatuses
+Execution Time: 70 ms
+Status: SUCCESS
+2025-06-29 10:51:26.288 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/admin/system/logs?level=ERROR&page=0&size=100
+Controller: SystemController.getSystemLogs
+Arguments: [ERROR, null, Page request [number: 0, size 100, sort: timestamp: DESC]]
+2025-06-29 10:51:26.382 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/system/metrics
+Controller: PublicSystemController.getSystemMetrics
+Arguments: []
+2025-06-29 10:51:26.406 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/admin/system/logs?level=ERROR&page=0&size=100
+Controller: SystemController.getSystemLogs
+Execution Time: 109 ms
+Status: SUCCESS
+2025-06-29 10:51:27.408 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/system/metrics
+Controller: PublicSystemController.getSystemMetrics
+Execution Time: 1016 ms
+Status: SUCCESS
+2025-06-29 10:51:28.640 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=0&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:28.646 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=0&size=10
+Controller: ReportController.getAllReports
+Execution Time: 6 ms
+Status: SUCCESS
+2025-06-29 10:51:28.909 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:28.915 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 5 ms
+Status: SUCCESS
+2025-06-29 10:51:29.129 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:29.135 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 5 ms
+Status: SUCCESS
+2025-06-29 10:51:29.290 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:29.296 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 5 ms
+Status: SUCCESS
+2025-06-29 10:51:29.458 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:29.464 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 6 ms
+Status: SUCCESS
+2025-06-29 10:51:29.606 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:29.611 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 4 ms
+Status: SUCCESS
+2025-06-29 10:51:29.770 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:29.775 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 5 ms
+Status: SUCCESS
+2025-06-29 10:51:29.946 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:29.952 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 5 ms
+Status: SUCCESS
+2025-06-29 10:51:30.119 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:30.124 [http-nio-8080-exec-5] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 4 ms
+Status: SUCCESS
+2025-06-29 10:51:30.311 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:30.319 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 7 ms
+Status: SUCCESS
+2025-06-29 10:51:30.488 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:30.493 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 4 ms
+Status: SUCCESS
+2025-06-29 10:51:30.658 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:30.664 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 5 ms
+Status: SUCCESS
+2025-06-29 10:51:30.829 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:30.835 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 5 ms
+Status: SUCCESS
+2025-06-29 10:51:41.853 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=0&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:41.859 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=0&size=10
+Controller: ReportController.getAllReports
+Execution Time: 4 ms
+Status: SUCCESS
+2025-06-29 10:51:42.466 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:42.471 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 4 ms
+Status: SUCCESS
+2025-06-29 10:51:42.631 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Arguments: [null, null, null, null, null, 2025-05-30, 2025-06-29, Page request [number: 0, size 10, sort: createdAt: DESC]]
+2025-06-29 10:51:42.636 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/reports?dateFrom=2025-05-30&dateTo=2025-06-29&page=-1&size=10
+Controller: ReportController.getAllReports
+Execution Time: 4 ms
+Status: SUCCESS
+2025-06-29 10:51:48.311 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/system/metrics
+Controller: PublicSystemController.getSystemMetrics
+Arguments: []
+2025-06-29 10:51:49.453 [http-nio-8080-exec-10] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/system/metrics
+Controller: PublicSystemController.getSystemMetrics
+Execution Time: 1141 ms
+Status: SUCCESS
+2025-06-29 10:52:18.266 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/system/status
+Controller: PublicSystemController.getAllComponentStatuses
+Arguments: []
+2025-06-29 10:52:18.267 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/admin/system/logs?level=ERROR&page=0&size=100
+Controller: SystemController.getSystemLogs
+Arguments: [ERROR, null, Page request [number: 0, size 100, sort: timestamp: DESC]]
+2025-06-29 10:52:18.279 [http-nio-8080-exec-2] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/system/status
+Controller: PublicSystemController.getAllComponentStatuses
+Execution Time: 11 ms
+Status: SUCCESS
+2025-06-29 10:52:18.283 [http-nio-8080-exec-6] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/admin/system/logs?level=ERROR&page=0&size=100
+Controller: SystemController.getSystemLogs
+Execution Time: 14 ms
+Status: SUCCESS
+2025-06-29 10:52:48.338 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/admin/system/logs?level=ERROR&page=0&size=100
+Controller: SystemController.getSystemLogs
+Arguments: [ERROR, null, Page request [number: 0, size 100, sort: timestamp: DESC]]
+2025-06-29 10:52:48.343 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/system/status
+Controller: PublicSystemController.getAllComponentStatuses
+Arguments: []
+2025-06-29 10:52:48.352 [http-nio-8080-exec-4] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/system/status
+Controller: PublicSystemController.getAllComponentStatuses
+Execution Time: 7 ms
+Status: SUCCESS
+2025-06-29 10:52:48.357 [http-nio-8080-exec-3] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/admin/system/logs?level=ERROR&page=0&size=100
+Controller: SystemController.getSystemLogs
+Execution Time: 17 ms
+Status: SUCCESS
+2025-06-29 10:53:18.402 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/admin/system/logs?level=ERROR&page=0&size=100
+Controller: SystemController.getSystemLogs
+Arguments: [ERROR, null, Page request [number: 0, size 100, sort: timestamp: DESC]]
+2025-06-29 10:53:18.412 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/system/status
+Controller: PublicSystemController.getAllComponentStatuses
+Arguments: []
+2025-06-29 10:53:18.413 [http-nio-8080-exec-9] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/admin/system/logs?level=ERROR&page=0&size=100
+Controller: SystemController.getSystemLogs
+Execution Time: 9 ms
+Status: SUCCESS
+2025-06-29 10:53:18.420 [http-nio-8080-exec-8] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/system/status
+Controller: PublicSystemController.getAllComponentStatuses
+Execution Time: 7 ms
+Status: SUCCESS
+2025-06-29 10:53:48.501 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/system/status
+Controller: PublicSystemController.getAllComponentStatuses
+Arguments: []
+2025-06-29 10:53:48.508 [http-nio-8080-exec-1] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/system/status
+Controller: PublicSystemController.getAllComponentStatuses
+Execution Time: 6 ms
+Status: SUCCESS
+2025-06-29 10:53:48.520 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:38 - 
+=== API Request ===
+Method: GET /api/admin/system/logs?level=ERROR&page=0&size=100
+Controller: SystemController.getSystemLogs
+Arguments: [ERROR, null, Page request [number: 0, size 100, sort: timestamp: DESC]]
+2025-06-29 10:53:48.536 [http-nio-8080-exec-7] INFO  com.civiguard.aop.LoggingAspect:58 - 
+=== API Response ===
+Method: GET /api/admin/system/logs?level=ERROR&page=0&size=100
+Controller: SystemController.getSystemLogs
+Execution Time: 15 ms
+Status: SUCCESS

@@ -1,0 +1,827 @@
+2025-06-21 08:41:57.477 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:41:58.522 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:41:58.523 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:41:58.603 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:41:58.604 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:41:59.607 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:00.685 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:00.686 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:01.373 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:01.374 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:01.688 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:02.717 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:02.719 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:06.315 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:06.316 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:12.420 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:12.424 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:13.797 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:14.812 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:14.813 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:15.816 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:16.314 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:16.314 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:16.828 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:16.829 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:17.830 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:18.843 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:18.843 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:19.876 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:20.889 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:20.890 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:21.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:21.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:21.891 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:22.905 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:22.906 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:23.908 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:24.922 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:24.923 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:25.969 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:26.315 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:26.315 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:26.983 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:26.983 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:27.984 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:28.997 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:28.997 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:29.999 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:31.011 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:31.012 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:31.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:31.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:37.041 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:37.367 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:37.369 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:38.060 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:38.061 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:39.069 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:40.092 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:40.093 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:41.095 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:41.317 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:41.318 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:42.111 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:42.112 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:43.248 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:46.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:46.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:46.314 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:46.315 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:47.313 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:51.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:51.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:51.316 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:51.317 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:52.353 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:42:56.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:56.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:56.316 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:42:56.316 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:42:57.316 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:01.321 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:01.321 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:01.322 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:01.325 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:07.346 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:07.361 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:07.362 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:08.364 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:08.368 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:09.375 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:11.315 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:11.315 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:11.316 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:11.317 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:12.316 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:16.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:16.315 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:16.316 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:16.317 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:17.345 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:21.315 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:21.316 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:21.334 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:21.335 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:22.318 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:26.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:26.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:26.320 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:26.321 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:27.605 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:31.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:31.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:31.314 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:31.314 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:32.312 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:36.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:36.315 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:36.316 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:36.316 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:37.343 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:41.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:41.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:42.313 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:42.353 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:42.353 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:46.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:46.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:46.315 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:46.315 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:47.316 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:51.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:51.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:51.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:51.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:57.339 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:43:57.350 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:57.350 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:58.350 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:43:58.351 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:43:59.353 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:01.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:01.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:01.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:01.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:02.312 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:06.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:06.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:06.313 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:06.313 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:12.341 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:12.351 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:12.352 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:13.353 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:13.354 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:14.356 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:16.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:16.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:16.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:16.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:17.312 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:21.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:21.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:21.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:21.313 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:22.408 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:26.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:26.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:26.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:26.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:27.313 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:31.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:31.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:31.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:31.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:32.516 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:36.318 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:36.318 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:36.319 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:36.319 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:37.320 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:41.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:41.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:41.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:41.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:42.339 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:46.345 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:46.346 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:46.355 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:46.355 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:47.357 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:51.315 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:51.315 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:51.317 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:51.318 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:52.348 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:44:56.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:56.313 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:56.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:44:56.314 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:44:57.314 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:01.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:01.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:01.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:01.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:07.339 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:07.353 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:07.354 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:08.351 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:08.351 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:09.353 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:11.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:11.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:11.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:11.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:12.312 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:16.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:16.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:16.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:16.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:22.337 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:22.347 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:22.347 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:23.348 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:23.349 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:24.351 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:26.310 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:26.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:26.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:26.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:27.312 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:31.310 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:31.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:31.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:31.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:37.341 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:37.348 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:37.348 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:38.352 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:38.353 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:39.354 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:41.315 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:41.315 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:41.317 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:41.317 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:42.316 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:46.316 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:46.317 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:46.319 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:46.319 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:52.342 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:52.355 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:52.356 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:53.353 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:53.354 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:54.355 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:45:56.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:56.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:56.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:45:56.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:45:57.311 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:01.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:01.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:01.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:01.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:07.337 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:07.352 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:07.352 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:08.348 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:08.349 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:09.350 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:11.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:11.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:11.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:11.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:12.311 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:16.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:16.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:16.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:16.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:17.458 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:21.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:21.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:21.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:21.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:22.311 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:26.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:26.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:26.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:26.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:30.464 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:31.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:31.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:31.476 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:31.476 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:32.477 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:36.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:36.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:36.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:36.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:37.454 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:41.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:41.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:41.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:41.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:42.312 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:46.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:46.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:46.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:46.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:57.357 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:46:57.375 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:57.375 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:58.374 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:58.374 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:58.397 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:46:58.398 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:46:59.375 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:00.386 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:00.386 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:01.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:01.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:01.387 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:02.399 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:02.400 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:03.674 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:06.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:06.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:06.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:06.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:07.312 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:11.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:11.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:11.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:11.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:12.361 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:16.309 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:16.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:16.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:16.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:17.311 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:21.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:21.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:21.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:21.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:22.359 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:26.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:26.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:26.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:26.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:27.312 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:31.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:31.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:31.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:31.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:37.352 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:37.353 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:37.365 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:38.378 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:38.379 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:39.380 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:41.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:41.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:41.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:41.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:42.312 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:46.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:46.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:46.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:46.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:47.361 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:51.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:51.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:51.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:51.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:52.311 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:47:56.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:56.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:47:56.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:56.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:47:57.446 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:01.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:01.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:01.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:01.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:02.312 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:06.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:06.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:06.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:06.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:07.393 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:11.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:11.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:11.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:11.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:12.311 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:16.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:16.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:16.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:16.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:22.354 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:22.354 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:22.359 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:23.371 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:23.372 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:24.373 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:26.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:26.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:26.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:26.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:27.311 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:31.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:31.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:31.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:31.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:37.348 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:37.348 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:37.358 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:38.369 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:38.369 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:39.370 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:41.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:41.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:41.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:41.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:42.311 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:46.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:46.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:46.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:46.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:50.389 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:51.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:51.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:51.400 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:51.400 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:52.402 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:48:56.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:56.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:48:56.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:48:56.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:02.350 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:02.350 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:02.355 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:03.373 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:03.374 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:04.379 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:06.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:06.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:06.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:06.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:07.311 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:11.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:11.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:11.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:11.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:12.365 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:16.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:16.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:16.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:16.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:17.311 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:21.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:21.310 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:21.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:21.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:27.348 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:27.348 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:27.361 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:28.374 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:28.374 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:29.375 [MessageBroker-4] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:31.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:31.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:31.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:31.314 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:32.315 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:36.309 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:36.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:36.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:36.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:37.340 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:41.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:41.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:41.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:41.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:42.311 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:46.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:46.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:46.315 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:46.316 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:52.341 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:52.377 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:52.377 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:53.353 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:53.353 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:54.354 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:49:56.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:56.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:56.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:49:56.313 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:49:57.313 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:01.310 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:01.310 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:01.314 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:01.315 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:02.365 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:06.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:06.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:06.316 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:06.316 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:07.313 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:11.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:11.315 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:11.316 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:11.317 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:12.344 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:16.310 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:16.310 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:16.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:16.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:17.311 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:21.310 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:21.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:21.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:21.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:22.348 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:26.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:26.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:26.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:26.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:27.312 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:31.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:31.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:31.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:31.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:37.345 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:37.345 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:37.351 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:38.362 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:38.363 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:39.364 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:41.309 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:41.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:41.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:41.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:42.311 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:46.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:46.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:46.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:46.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:52.361 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:52.388 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:52.389 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:53.374 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:53.375 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:54.377 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:50:56.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:56.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:56.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:50:56.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:50:57.312 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:01.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:01.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:01.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:01.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:02.387 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:06.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:06.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:06.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:06.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:07.314 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:11.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:11.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:11.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:11.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:12.358 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:16.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:16.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:16.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:16.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:17.312 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:21.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:21.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:21.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:21.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:27.350 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:27.350 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:27.361 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:28.373 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:28.373 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:29.374 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:31.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:31.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:31.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:31.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:32.312 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:36.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:36.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:36.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:36.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:42.350 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:42.350 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:42.359 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:43.371 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:43.371 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:44.372 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:46.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:46.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:46.314 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:46.316 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:47.312 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:51.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:51.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:51.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:51.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:52.499 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:51:56.309 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:56.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:56.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:51:56.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:51:57.312 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:01.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:01.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:01.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:01.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:02.356 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:06.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:06.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:06.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:06.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:07.311 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:11.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:11.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:11.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:11.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:12.356 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:16.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:16.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:16.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:16.313 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:17.312 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:21.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:21.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:21.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:21.314 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:22.357 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:26.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:26.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:26.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:26.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:27.312 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:31.309 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:31.310 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:31.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:31.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:37.350 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:37.350 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:37.352 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:38.363 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:38.363 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:39.364 [MessageBroker-1] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:41.316 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:41.316 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:41.318 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:41.319 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:42.317 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:46.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:46.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:46.314 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:46.314 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:47.384 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:51.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:51.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:51.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:51.313 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:52.313 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:52:56.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:56.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:52:56.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:52:56.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:02.359 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:02.413 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:02.414 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:03.371 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:03.371 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:04.372 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:06.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:06.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:06.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:06.314 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:07.314 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:11.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:11.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:11.313 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:11.313 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:12.377 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:16.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:16.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:16.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:16.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:17.314 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:21.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:21.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:21.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:21.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:22.361 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:26.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:26.312 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:26.313 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:26.314 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:27.313 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:31.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:31.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:31.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:31.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:32.370 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:36.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:36.314 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:36.316 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:36.317 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:37.316 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:41.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:41.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:41.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:41.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:47.350 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:47.367 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:47.368 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:48.361 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:48.362 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:49.363 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:51.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:51.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:51.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:51.311 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:52.312 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:53:56.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:56.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:56.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:53:56.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:53:57.460 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:01.309 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:01.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:01.318 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:01.318 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:02.318 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:06.315 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:06.315 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:06.316 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:06.318 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:07.555 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:11.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:11.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:11.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:11.312 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:12.311 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:16.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:16.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:16.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:16.312 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:22.362 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:23.375 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:23.376 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:24.377 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:25.368 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:25.368 [MessageBroker-4] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:26.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:26.314 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:26.385 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:26.386 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:27.317 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:31.314 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:31.315 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:31.317 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:31.317 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:37.368 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:38.379 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:38.379 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:39.380 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:40.374 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:40.374 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:41.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:41.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:41.385 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:41.386 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:42.311 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:46.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:46.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:46.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:46.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:52.362 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:52.373 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:52.373 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:53.373 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:53.373 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:54.374 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:54:56.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:56.311 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:56.312 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:54:56.313 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:54:57.312 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:55:01.310 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:55:01.311 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:55:01.313 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:55:01.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:55:07.360 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:55:07.371 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:55:07.371 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:55:08.371 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:55:08.371 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:55:09.373 [MessageBroker-2] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:55:11.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:55:11.311 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:55:11.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:55:11.313 [MessageBroker-1] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:55:12.312 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:55:16.315 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:55:16.316 [MessageBroker-3] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:55:16.316 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.gvfs, Error code: 13
+2025-06-21 08:55:16.319 [MessageBroker-2] WARN  o.software.os.linux.LinuxFileSystem:192 - Failed to get information to use statvfs. path: /root/.cache/doc, Error code: 13
+2025-06-21 08:55:22.298 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler:117 - Stopping...
+2025-06-21 08:55:22.325 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler:117 - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@d4eb9a1]]
+2025-06-21 08:55:22.337 [SpringApplicationShutdownHook] INFO  o.s.m.s.b.SimpleBrokerMessageHandler:117 - Stopped.
+2025-06-21 08:55:22.363 [MessageBroker-3] DEBUG c.c.controller.WebSocketController:76 - Pushed system metrics to WebSocket subscribers
+2025-06-21 08:55:22.826 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-06-21 08:55:22.855 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2025-06-21 08:55:22.890 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource:351 - HikariPool-1 - Shutdown completed.
